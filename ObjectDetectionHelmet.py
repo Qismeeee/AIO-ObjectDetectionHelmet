@@ -7,7 +7,7 @@ import os
 def load_model(model_path):
     return YOLOv10(model_path)
 
-
+# Load the model from the given path
 def upload_image():
     uploaded_file = st.file_uploader(
         "Choose an image...", type=["jpg", "jpeg", "png"])
